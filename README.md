@@ -8,7 +8,7 @@ Panduan lengkap untuk pemasangan Microsoft Office 2021 secara manual berserta ak
 
 - `Office 2021/` — Folder pemasangan Office 2021
 - `configuration.xml` — Konfigurasi pemasangan Office
-- `Activation_Office.bat` — Skrip aktivasi Office
+- `Activation_Office.cmd` — Skrip aktivasi Office
 - `Auto_Renew_Scripts.bat` — Skrip untuk renew aktivasi automatik
 - `Cara Guna Office 2021.txt` — Panduan pemasangan langkah demi langkah
 
@@ -38,7 +38,7 @@ Panduan lengkap untuk pemasangan Microsoft Office 2021 secara manual berserta ak
 
 ## 🔑 Cara Aktifkan
 
-1. **Jalankan skrip `Activation_Office.bat` sebagai Administrator.**
+1. **Jalankan skrip `Activation_Office.cmd` sebagai Administrator.**
 2. **Tunggu sehingga keluar mesej "Successful".**
 3. **Tekan `N` untuk keluar.**
 
