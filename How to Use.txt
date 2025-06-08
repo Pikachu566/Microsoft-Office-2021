@@ -1,3 +1,28 @@
+STEPS TO INSTALL OFFICE 2021
+
+1. Drag the "Office 2021" folder to the following location:
+C:\Program Files\Office 2021
+
+2. Open Command Prompt as Administrator:
+- Right-click on the Start Menu
+- Select “Command Prompt (Admin)” or “Windows Terminal (Admin)”
+
+3. Run the following command in CMD:
+a) cd C:\Program Files\Office 2021
+b) setup /configure configuration.xml
+
+4. Wait for the installation process to complete.
+
+5. After completion, run the "Activation_Office" script:
+- Right-click and select “Run as Administrator”
+- Wait until the "Successful" message appears
+- Press the `N` key to exit
+
+6. Finally, run the "Auto_Renew_Scripts" script to enable automatic renewal for Office.
+
+📌 Make sure all steps are run as **Administrator** to avoid installation problems.
+
+========================================================================================================
 LANGKAH-LANGKAH PASANG OFFICE 2021
 
 1. Seret folder "Office 2021" ke lokasi berikut:
