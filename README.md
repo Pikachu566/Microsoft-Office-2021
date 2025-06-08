@@ -1,63 +1,63 @@
 # 🧩 Office 2021 Installer & Activator Guide
 
-Panduan lengkap untuk pemasangan Microsoft Office 2021 secara manual berserta aktivasi dan skrip pembaharuan automatik (auto-renewal).
+A complete manual guide for installing Microsoft Office 2021, including activation and an automatic renewal script.
 
 ---
 
-## 📦 Kandungan
+## 📦 Contents
 
-- `Office 2021/` — Folder pemasangan Office 2021
-- `configuration.xml` — Konfigurasi pemasangan Office
-- `Activation_Office.cmd` — Skrip aktivasi Office
-- `Auto_Renew_Scripts.bat` — Skrip untuk renew aktivasi automatik
-- `Cara Guna Office 2021.txt` — Panduan pemasangan langkah demi langkah
+- `Office 2021/` — Office 2021 installation folder  
+- `configuration.xml` — Office installation configuration file  
+- `Activation_Office.cmd` — Office activation script  
+- `Auto_Renew_Scripts.bat` — Script for automatic activation renewal  
+- `Cara Guna Office 2021.txt` — Step-by-step installation guide  
 
 ---
 
-## 🛠 Cara Pasang
+## 🛠 Installation Steps
 
-1. **Pindahkan folder "Office 2021":**
+1. **Move the "Office 2021" folder:**
    ```
-   Drag folder Office 2021 ke lokasi:
+   Drag the Office 2021 folder to the following location:
    C:\Program Files\Office 2021
    ```
 
-2. **Buka CMD sebagai Administrator:**
-   - Klik kanan pada Start
-   - Pilih “Command Prompt (Admin)” atau “Windows Terminal (Admin)”
+2. **Open CMD as Administrator:**
+   - Right-click on Start  
+   - Select “Command Prompt (Admin)” or “Windows Terminal (Admin)”
 
-3. **Jalankan perintah berikut:**
+3. **Run the following command:**
    ```bash
    cd "C:\Program Files\Office 2021"
    setup /configure configuration.xml
    ```
 
-4. **Tunggu proses pemasangan selesai.**
+4. **Wait for the installation to complete.**
 
 ---
 
-## 🔑 Cara Aktifkan
+## 🔑 Activation Steps
 
-1. **Jalankan skrip `Activation_Office.cmd` sebagai Administrator.**
-2. **Tunggu sehingga keluar mesej "Successful".**
-3. **Tekan `N` untuk keluar.**
+1. **Run the `Activation_Office.cmd` script as Administrator.**  
+2. **Wait until you see the message "Successful".**  
+3. **Press `N` to exit.**
 
 ---
 
 ## ♻️ Auto Renew Activation
 
-1. Jalankan skrip `Auto_Renew_Scripts.bat` sebagai Administrator.
-2. Skrip ini akan aktifkan pembaharuan automatik supaya Office terus aktif.
+1. Run the `Auto_Renew_Scripts.bat` script as Administrator.  
+2. This script will enable automatic activation renewal to keep Office activated.
 
 ---
 
-## ⚠️ Nota Penting
+## ⚠️ Important Notes
 
-- Semua skrip **wajib** dijalankan sebagai **Administrator**.
-- Fail ini untuk tujuan pembelajaran. Sila gunakan lesen sah untuk penggunaan jangka panjang.
+- All scripts **must** be run as **Administrator**.  
+- This material is for educational purposes only. Please use a genuine license for long-term use.
 
 ---
 
-## 📄 Lesen
+## 📄 License
 
-Projek ini disediakan untuk tujuan pembelajaran sahaja. Segala risiko ditanggung sendiri oleh pengguna.
+This project is provided for educational purposes only. Users assume all risks and responsibilities.
